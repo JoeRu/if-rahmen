@@ -1,0 +1,3 @@
+[submodule "ImmichFrame"]
+	path = ImmichFrame
+	url = https://github.com/JoeRu/ImmichFrame.git
