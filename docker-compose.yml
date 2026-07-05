@@ -3,6 +3,7 @@ services:
   immichframe:
     container_name: immichframe
     build:
+#      context: ./.worktree/fix-build-warnings
       context: ./ImmichFrame
 #    image: immichframe:latest
 #    image: ghcr.io/immichframe/immichframe:latest
