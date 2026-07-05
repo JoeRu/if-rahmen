@@ -9,11 +9,6 @@
     "ast_hash": "76b8280ee2f1d26085d99cbb1d2588c2",
     "semantic_hash": "76b8280ee2f1d26085d99cbb1d2588c2"
   },
-  "ImmichFrame.Core.Tests/Logic/MultiImmichFrameLogicDelegateTests.cs": {
-    "mtime": 1783173472.0142817,
-    "ast_hash": "37474a55421ac617ee9dab1b41ceee4b",
-    "semantic_hash": "37474a55421ac617ee9dab1b41ceee4b"
-  },
   "ImmichFrame.Core.Tests/Logic/Pool/AggregatingAssetPoolTests.cs": {
     "mtime": 1783173472.0152776,
     "ast_hash": "26a7c06af71c30e2aeed5bad13d1f651",
@@ -33,11 +28,6 @@
     "mtime": 1783173472.0182738,
     "ast_hash": "3a0fa10877e870121ba12b13ca75eceb",
     "semantic_hash": "3a0fa10877e870121ba12b13ca75eceb"
-  },
-  "ImmichFrame.Core.Tests/Logic/Pool/ChronologicalAssetsPoolWrapperTests.cs": {
-    "mtime": 1783173472.0182738,
-    "ast_hash": "771a4acf860a116132371ee7f9566d58",
-    "semantic_hash": "771a4acf860a116132371ee7f9566d58"
   },
   "ImmichFrame.Core.Tests/Logic/Pool/FavoriteAssetsPoolTests.cs": {
     "mtime": 1783173472.0195863,
@@ -175,9 +165,9 @@
     "semantic_hash": "38c83d35578a522776494896300df2a1"
   },
   "ImmichFrame.Core/Interfaces/IServerSettings.cs": {
-    "mtime": 1783173472.0247078,
-    "ast_hash": "bc5cd1dec959bc83432c2f06f6a119d5",
-    "semantic_hash": "bc5cd1dec959bc83432c2f06f6a119d5"
+    "mtime": 1783278257.6543097,
+    "ast_hash": "9a2632c613e06b06b26976997b0d8249",
+    "semantic_hash": "9a2632c613e06b06b26976997b0d8249"
   },
   "ImmichFrame.Core/Interfaces/IWeather.cs": {
     "mtime": 1777144034.9000773,
@@ -205,14 +195,14 @@
     "semantic_hash": "32db2b889665b8aed316eb1ba580f8f9"
   },
   "ImmichFrame.Core/Logic/AccountSelection/TotalAccountImagesSelectionStrategy.cs": {
-    "mtime": 1783173472.0278447,
-    "ast_hash": "9ac94ecff828c3fb6b807e81bf4c5e52",
-    "semantic_hash": "9ac94ecff828c3fb6b807e81bf4c5e52"
+    "mtime": 1783278257.6553314,
+    "ast_hash": "e976db26c664d7a3acf53b5b5ce4f30c",
+    "semantic_hash": "e976db26c664d7a3acf53b5b5ce4f30c"
   },
   "ImmichFrame.Core/Logic/MultiImmichFrameLogicDelegate.cs": {
-    "mtime": 1783173472.028814,
-    "ast_hash": "71e14f77107ce9dd923f2d1a2f2cbb0e",
-    "semantic_hash": "71e14f77107ce9dd923f2d1a2f2cbb0e"
+    "mtime": 1783278257.6563172,
+    "ast_hash": "ba6c07763fdbb5824e0102ad7bd98ed2",
+    "semantic_hash": "ba6c07763fdbb5824e0102ad7bd98ed2"
   },
   "ImmichFrame.Core/Logic/Pool/AggregatingAssetPool.cs": {
     "mtime": 1777144034.963271,
@@ -233,11 +223,6 @@
     "mtime": 1777144034.9824986,
     "ast_hash": "28c983a595f7c552c61caea9f4d09ec5",
     "semantic_hash": "28c983a595f7c552c61caea9f4d09ec5"
-  },
-  "ImmichFrame.Core/Logic/Pool/ChronologicalAssetsPoolWrapper.cs": {
-    "mtime": 1783173472.0301971,
-    "ast_hash": "2d3b42976d40e7ed9323e89590159a8f",
-    "semantic_hash": "2d3b42976d40e7ed9323e89590159a8f"
   },
   "ImmichFrame.Core/Logic/Pool/FavoriteAssetsPool.cs": {
     "mtime": 1783173472.0312126,
@@ -275,9 +260,9 @@
     "semantic_hash": "172c8c631287d945713982a60d234c75"
   },
   "ImmichFrame.Core/Logic/PooledImmichFrameLogic.cs": {
-    "mtime": 1783173472.0342107,
-    "ast_hash": "a6193bf19a96baec632d4c9f26a55f16",
-    "semantic_hash": "a6193bf19a96baec632d4c9f26a55f16"
+    "mtime": 1783278257.6573708,
+    "ast_hash": "48b6dd356b971e3f3640ab256ce9ac2f",
+    "semantic_hash": "48b6dd356b971e3f3640ab256ce9ac2f"
   },
   "ImmichFrame.Core/Models/Appointment.cs": {
     "mtime": 1777144035.035285,
@@ -330,14 +315,14 @@
     "semantic_hash": "a0e6c845854a7239280adc96122bd910"
   },
   "ImmichFrame.WebApi.Tests/Resources/TestV1.json": {
-    "mtime": 1783173472.03922,
-    "ast_hash": "b13b6b82be6730a830a9a0150d5c2c92",
-    "semantic_hash": "b13b6b82be6730a830a9a0150d5c2c92"
+    "mtime": 1783278257.6573708,
+    "ast_hash": "a6c096ab59265afd967f655686821ee2",
+    "semantic_hash": "a6c096ab59265afd967f655686821ee2"
   },
   "ImmichFrame.WebApi.Tests/Resources/TestV2.json": {
-    "mtime": 1783173472.0402079,
-    "ast_hash": "e785367be235516b79fa366160217068",
-    "semantic_hash": "e785367be235516b79fa366160217068"
+    "mtime": 1783278257.658316,
+    "ast_hash": "a0a7c4a04a6d0f5b4bdf04ccb1f94176",
+    "semantic_hash": "a0a7c4a04a6d0f5b4bdf04ccb1f94176"
   },
   "ImmichFrame.WebApi.Tests/Resources/TestV2_NoGeneral.json": {
     "mtime": 1777144035.13684,
@@ -370,9 +355,9 @@
     "semantic_hash": "3aaafe5cb0c19c93e8a91a349e4d69f3"
   },
   "ImmichFrame.WebApi/Helpers/Config/ServerSettingsV1.cs": {
-    "mtime": 1783173472.0424736,
-    "ast_hash": "90f44ba281c5e06a8e9ed68c9f614496",
-    "semantic_hash": "90f44ba281c5e06a8e9ed68c9f614496"
+    "mtime": 1783278257.6593206,
+    "ast_hash": "554cad2d5dcd976d4e5fb77e8db41437",
+    "semantic_hash": "554cad2d5dcd976d4e5fb77e8db41437"
   },
   "ImmichFrame.WebApi/Helpers/CustomAuthenticationMiddleware.cs": {
     "mtime": 1777144035.230615,
@@ -395,9 +380,9 @@
     "semantic_hash": "c2b548701d109b9422b2c07fae6e1182"
   },
   "ImmichFrame.WebApi/Models/ClientSettingsDto.cs": {
-    "mtime": 1783173472.0436656,
-    "ast_hash": "54cb4b2282bbb31bb7a710c0ae527a95",
-    "semantic_hash": "54cb4b2282bbb31bb7a710c0ae527a95"
+    "mtime": 1783278257.6613204,
+    "ast_hash": "0f3a65e5d5460e9ba92700586f88b2cc",
+    "semantic_hash": "0f3a65e5d5460e9ba92700586f88b2cc"
   },
   "ImmichFrame.WebApi/Models/ImageRequestedNotification.cs": {
     "mtime": 1777144035.305077,
@@ -405,9 +390,9 @@
     "semantic_hash": "d63774f0b786db4f40653a63309896b8"
   },
   "ImmichFrame.WebApi/Models/ServerSettings.cs": {
-    "mtime": 1783173472.044675,
-    "ast_hash": "b5ae47ad5135628c75823948f91fa5f3",
-    "semantic_hash": "b5ae47ad5135628c75823948f91fa5f3"
+    "mtime": 1783278257.662359,
+    "ast_hash": "c1df984b2e74e4bdbdca3f0445272d31",
+    "semantic_hash": "c1df984b2e74e4bdbdca3f0445272d31"
   },
   "ImmichFrame.WebApi/Program.cs": {
     "mtime": 1777144035.3102622,
@@ -435,9 +420,9 @@
     "semantic_hash": "b73801af557f304e552ea031a3be03a2"
   },
   "docker/Settings.example.json": {
-    "mtime": 1783173472.0456839,
-    "ast_hash": "edd61b0ef086d3a2df733d3fc81f4dc3",
-    "semantic_hash": "edd61b0ef086d3a2df733d3fc81f4dc3"
+    "mtime": 1783278257.6633232,
+    "ast_hash": "1f4e26b6ab2a847f91d02f75b20162e9",
+    "semantic_hash": "1f4e26b6ab2a847f91d02f75b20162e9"
   },
   "docs/docs/contribute/_category_.json": {
     "mtime": 1777144035.643298,
@@ -750,9 +735,9 @@
     "semantic_hash": "357eb04a568573ea28bd7dcb49a31dd4"
   },
   "CLAUDE.md": {
-    "mtime": 1777146678.7605639,
-    "ast_hash": "060713e7fd20f5826e9ba87dcffc43e9",
-    "semantic_hash": "060713e7fd20f5826e9ba87dcffc43e9"
+    "mtime": 1783278257.6531212,
+    "ast_hash": "54e9713ccdc4c0e3f8538a869a18faa6",
+    "semantic_hash": "54e9713ccdc4c0e3f8538a869a18faa6"
   },
   "CONTRIBUTING.md": {
     "mtime": 1777144034.6639762,
@@ -760,9 +745,9 @@
     "semantic_hash": "6255e0557ed8398573044ee1cf8d6736"
   },
   "ImmichFrame.WebApi.Tests/Resources/TestV2.yml": {
-    "mtime": 1783173472.0402079,
-    "ast_hash": "fa15d1f4a037897654fc3fda2291afd7",
-    "semantic_hash": "fa15d1f4a037897654fc3fda2291afd7"
+    "mtime": 1783278257.6593206,
+    "ast_hash": "bc934d1fc4cb7449cd5146f90746874b",
+    "semantic_hash": "bc934d1fc4cb7449cd5146f90746874b"
   },
   "Install_Client.md": {
     "mtime": 1777144035.3576584,
@@ -795,9 +780,9 @@
     "semantic_hash": "1f212b843a110c82dd73184e4b92fc7a"
   },
   "docker/Settings.example.yml": {
-    "mtime": 1783173472.0476851,
-    "ast_hash": "107b060f9aba19a2c567ce288d8721e2",
-    "semantic_hash": "107b060f9aba19a2c567ce288d8721e2"
+    "mtime": 1783278257.6643157,
+    "ast_hash": "e5eec98992088c2c1e54baf1f6deede5",
+    "semantic_hash": "e5eec98992088c2c1e54baf1f6deede5"
   },
   "docker/docker-compose.dev.yml": {
     "mtime": 1777144035.5617948,
@@ -860,14 +845,14 @@
     "semantic_hash": "c910f0070bcdf0025e316de3d3bf4442"
   },
   "docs/docs/getting-started/configuration.md": {
-    "mtime": 1783173472.049708,
-    "ast_hash": "6eba03ffa002523b45fc5ff7ec237894",
-    "semantic_hash": "6eba03ffa002523b45fc5ff7ec237894"
+    "mtime": 1783278257.6663165,
+    "ast_hash": "fcf3f41a8ee91c4dd3c3622c00093475",
+    "semantic_hash": "fcf3f41a8ee91c4dd3c3622c00093475"
   },
   "docs/docs/getting-started/configurationV1.md": {
-    "mtime": 1783173472.049708,
-    "ast_hash": "777baed0a855fea0d5083063c9ec236f",
-    "semantic_hash": "777baed0a855fea0d5083063c9ec236f"
+    "mtime": 1783278257.6673875,
+    "ast_hash": "319d2aa05f2b3f5ec0e47cf1513ec779",
+    "semantic_hash": "319d2aa05f2b3f5ec0e47cf1513ec779"
   },
   "docs/docs/getting-started/installation/docker.md": {
     "mtime": 1777144035.7981918,
