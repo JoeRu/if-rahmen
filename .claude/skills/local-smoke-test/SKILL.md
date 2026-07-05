@@ -34,10 +34,12 @@ test. Otherwise continue to "Browser checks" below.
 .claude/skills/local-smoke-test/smoke-test.sh rebuild-up
 ```
 
-If this exits non-zero, stop and report the build/startup error (it prints
-the last 50 lines of `docker compose logs`) — do not proceed to browser
-checks against a dead target, and skip straight to running
-`.claude/skills/local-smoke-test/smoke-test.sh down` before reporting.
+If this exits non-zero, stop and report the error — do not proceed to
+browser checks against a dead target, and skip straight to running
+`.claude/skills/local-smoke-test/smoke-test.sh down` before reporting. The
+error is either a `docker compose build`/`up` failure (printed directly by
+docker) or, if the build/start succeeded but the container never answered,
+a readiness timeout with the last 50 lines of `docker compose logs`.
 
 Otherwise continue to "Browser checks" below, and **always** run
 `.claude/skills/local-smoke-test/smoke-test.sh down` afterward, regardless
@@ -54,12 +56,16 @@ for this part.
 2. Call `browser_console_messages` — flag any entries at `error` level.
 3. Call `browser_network_requests` — flag any request with a 4xx/5xx status
    or that failed outright.
-4. Note the current image/video element's `src` from the snapshot. Read
-   `Interval` and `TransitionDuration` from `Config-IF/Settings.yml`'s
-   `General:` section (default to 15 and 3 respectively if either key is
-   absent or commented out). Wait `Interval + TransitionDuration + 5`
-   seconds, then take another `browser_snapshot` and compare the image/video
-   element's `src`. If it's unchanged, flag a stuck slideshow.
+4. Note a stable signal identifying the current asset — the visible photo
+   date, the asset id visible in `browser_network_requests`, or the
+   image/video `src` (accessibility snapshots don't reliably expose `src`;
+   use `browser_evaluate` if you need it directly). Read `Interval` and
+   `TransitionDuration` from `Config-IF/Settings.yml`'s `General:` section
+   (default to 15 and 3 respectively if either key is absent or commented
+   out). Wait `Interval + TransitionDuration + 5` seconds, then take another
+   `browser_snapshot` (and check `browser_network_requests` for new asset
+   activity) and compare against the signal you noted. If it's unchanged,
+   flag a stuck slideshow.
 5. Call `browser_close` to end the session.
 
 ## Reporting
